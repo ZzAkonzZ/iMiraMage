@@ -104,9 +104,10 @@ body {
 }
 
 .chapter-content p {
-  margin-bottom: 1.2em;
+  margin-bottom: 1em;
   text-align: justify;
-  text-indent: 1.5em;
+  text-indent: 1.2em;
+  line-height: 1.2;
 }
 
 .chapter-content p:first-of-type { text-indent: 0; }
@@ -304,7 +305,7 @@ body {
 /* ── RESPONSIVE ── */
 @media (max-width: 600px) {
   .chapter-content { padding: 2rem 1rem 6rem; }
-  .chapter-content { font-size: 17px; }
+  .chapter-content { font-size: 14px; }
   .chapter-title { font-size: 1.3rem; }
   .bottom-nav { padding: 0.6rem 0.75rem; }
   .nav-btn { padding: 0.45rem 0.7rem; font-size: 0.65rem; }
